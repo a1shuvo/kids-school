@@ -164,6 +164,22 @@ button {
         line-height: 40px;
     }
 
+    .curriculm {
+        margin: 150px 16px;
+    }
+
+    .curriculm h3 {
+        font-size: 1.625rem;
+    }
+
+    .curriculm-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
     
 }
 
