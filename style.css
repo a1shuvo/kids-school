@@ -8,8 +8,11 @@
 
 body {
     font-family: "Quicksand", serif;
-    margin: 0 140px;
     background-color: #F7F7F7;
+}
+
+section {
+    margin: 0 140px;
 }
 
 /* Shared Styles */
@@ -175,6 +178,64 @@ button {
     border-radius: 16px;
 }
 
+/* Footer Styles */
+footer {
+    background-color: #01ACFD;
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 0 140px;
+    padding: 100px 0;
+    color: #FFFFFF;
+    
+}
+
+.brand-content {
+    width: 350px;
+}
+
+.brand-content p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    max-width: 100%;
+    padding-right: 20px;
+}
+
+.logo h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.logo img {
+    color: #FFFFFF;
+}
+
+.about h4 {
+    margin-bottom: 20px;
+}
+
+.about ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.social h4 {
+    margin-bottom: 20px;
+}
 
 /* Media query for small devices */
 @media screen and (max-width: 576px) {
@@ -204,13 +265,14 @@ button {
         font-size: 1.625rem;
     }
 
-    .curriculm-container {
+    .curriculm-container, .footer-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         gap: 20px;
     }
+
 
     
 }
