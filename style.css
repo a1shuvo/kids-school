@@ -63,6 +63,7 @@ button {
 }
 
 /* Curriculum Section Style */
+
 .curriculm {
     background-image: url(./assets/bg.png);
     background-repeat: no-repeat;
@@ -141,6 +142,37 @@ button {
 
 .curriculum-card3 button {
     color: #8700FF;
+}
+
+/* Story Section Styles */
+.story {
+    margin: 0 140px;
+}
+.story-container {
+    display: grid;
+    grid-template-columns: 50% repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.story-container img {
+    max-width: 100%;
+    border-radius: 16px 16px 0 0;
+    
+}
+
+.story-card1 {
+    grid-row: 1 / span 2;
+}
+
+.story-card1,
+.story-card2,
+.story-card3,
+.story-card4,
+.story-card5 {
+    background-color: #FFFFFF;
+    border-radius: 16px;
 }
 
 
